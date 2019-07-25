@@ -14,7 +14,7 @@
 		file_get_contents(TELEGRAM_API_URL . 'sendMessage?chat_id=' . $userId . '&text=' . $text);
 	}
 	function codeGenerator(){
-		$consonant = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','z'];
+		$consonant = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
 		$vowel = ['a','e','i','o','u'];
 		$c_l = count($consonant) - 1;
 		$v_l = count($vowel) - 1;
