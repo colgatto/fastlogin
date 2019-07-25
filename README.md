@@ -15,6 +15,6 @@ $userList = [
 ];
 ```
 
-Submit username then check your telegram chat to see Access code.
+Submit username then check your telegram chat to see access code.
 
 The access code remains valid only 30 seconds.
