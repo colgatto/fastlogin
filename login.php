@@ -34,7 +34,7 @@
 		exit('code');
 	}
 	if( isset($_REQUEST["code"]) && isset($_SESSION['lastCode']) && isset($_SESSION['lastCode']['code']) && isset($_SESSION['lastCode']['time']) ){	
-		if($_SESSION['lastCode']['time'] > time() + 30){
+		if(time() - $_SESSION['lastCode']['time'] > 30){
 			unset($_SESSION['lastCode']);
 			exit('username');
 		}
